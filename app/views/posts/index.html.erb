@@ -1,17 +1,5 @@
-<h1>Listing posts</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Categoria</th>
-      <th>User</th>
-      <th>Titulo</th>
-      <th>Contenido</th>
-      <th>Fecha</th>
-      <th>Imagen</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+
 
   <tbody>
     <% @posts.each do |post| %>
@@ -30,6 +18,7 @@
   </tbody>
 </table>
 
-<br>
+
+
 
 <%= link_to 'New Post', new_post_path %>

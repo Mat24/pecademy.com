@@ -736,3 +736,1150 @@ Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 17:49:09 -0500
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:49:09 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:06:31 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 64ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/post" for 127.0.0.1 at 2014-11-09 18:06:35 -0500
+
+ActionController::RoutingError (No route matches [GET] "/post"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (32.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:06:43 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1419ms (Views: 1399.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:06:44 -0500
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:06 -0500
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:11:28 -0500
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:14:16 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (52.1ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007f844dcd1530>:0x007f844fdaf2c0>):
+    176:                             <a href="blog-item.html"><h3>Duis sed odio sit amet nibh vulputate cursus</h3></a>
+    177:                             <div class="entry-meta">
+    178:                                 <span><i class="icon-user"></i> <a href="#">John</a></span>
+    179:                                 <span><i class="icon-folder-close"></i> <a href="#"><%= post.categoria %></a></span>
+    180:                                 <span><i class="icon-calendar"></i> Sept 16th, 2012</span>
+    181:                                 <span><i class="icon-comment"></i> <a href="blog-item.html#comments">3 Comments</a></span>
+    182:                             </div>
+  app/views/posts/index.html.erb:179:in `_app_views_posts_index_html_erb__823261142875095372_70103126075700'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:15:16 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007f844dcd1530>:0x007f844dd014b0>):
+    205:         <div class="container">
+    206:             <div class="row">
+    207:                 <div class="col-md-3 col-sm-6">
+    208:                     <h4><%= post.titulo %></h4>
+    209:                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+    210:                     <p>Pellentesque habitant morbi tristique senectus.</p>
+    211:                 </div><!--/.col-md-3-->
+  app/views/posts/index.html.erb:208:in `_app_views_posts_index_html_erb__823261142875095372_70103108982940'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:15:18 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007f844dcd1530>:0x007f844e92a340>):
+    205:         <div class="container">
+    206:             <div class="row">
+    207:                 <div class="col-md-3 col-sm-6">
+    208:                     <h4><%= post.titulo %></h4>
+    209:                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+    210:                     <p>Pellentesque habitant morbi tristique senectus.</p>
+    211:                 </div><!--/.col-md-3-->
+  app/views/posts/index.html.erb:208:in `_app_views_posts_index_html_erb__823261142875095372_70103108982940'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:15:59 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (43.3ms)
+Completed 500 Internal Server Error in 46ms
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007f844dcd1530>:0x007f844fa6d968>):
+    205:         <div class="container">
+    206:             <div class="row">
+    207:                 <div class="col-md-3 col-sm-6">
+    208:                     <h4><%= post.titulo %></h4>
+    209:                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+    210:                     <p>Pellentesque habitant morbi tristique senectus.</p>
+    211:                 </div><!--/.col-md-3-->
+  app/views/posts/index.html.erb:208:in `_app_views_posts_index_html_erb__823261142875095372_70103124393500'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:16:22 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007f844dcd1530>:0x007f844f872d20>):
+    205:         <div class="container">
+    206:             <div class="row">
+    207:                 <div class="col-md-3 col-sm-6">
+    208:                     <h4><%= post.titulo %></h4>
+    209:                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+    210:                     <p>Pellentesque habitant morbi tristique senectus.</p>
+    211:                 </div><!--/.col-md-3-->
+  app/views/posts/index.html.erb:208:in `_app_views_posts_index_html_erb__823261142875095372_70103123352280'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 105ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:17:47 -0500
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:19:51 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:19:52 -0500
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:20:56 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:20:57 -0500
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2014-11-09 18:21:01 -0500
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (101.0ms)
+  Rendered posts/new.html.erb within layouts/application (102.5ms)
+Completed 200 OK in 202ms (Views: 200.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2014-11-09 18:21:15 -0500
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iAmxn3KYuaZIrIzKR4VJkQNlY8mTJIOMdcrg4eCa8Dg=", "post"=>{"categoria_id"=>"Test", "user_id"=>"test", "titulo"=>"tet", "contenido"=>"", "fecha(1i)"=>"2014", "fecha(2i)"=>"11", "fecha(3i)"=>"9", "imagen"=>""}, "commit"=>"Create Post"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "posts" ("categoria_id", "contenido", "created_at", "fecha", "imagen", "titulo", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["categoria_id", 0], ["contenido", ""], ["created_at", "2014-11-09 23:21:15.096365"], ["fecha", "2014-11-09"], ["imagen", ""], ["titulo", "tet"], ["updated_at", "2014-11-09 23:21:15.096365"], ["user_id", 0]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 31ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2014-11-09 18:21:15 -0500
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/show.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `categoria' for #<Post:0x007f844fa7c788>):
+    2: 
+    3: <p>
+    4:   <strong>Categoria:</strong>
+    5:   <%= @post.categoria %>
+    6: </p>
+    7: 
+    8: <p>
+  app/views/posts/show.html.erb:5:in `_app_views_posts_show_html_erb___959212977180313367_70103124422060'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.3ms)
+
+
+Started GET "/categoria" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+Processing by CategoriaController#index as HTML
+Completed 401 Unauthorized in 13ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 132ms (Views: 115.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:24 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:25 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:25 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:25 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:25 -0500
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-11-09 18:21:35 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 109ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iAmxn3KYuaZIrIzKR4VJkQNlY8mTJIOMdcrg4eCa8Dg=", "user"=>{"email"=>"chundo@pecademy.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'chundo@pecademy.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered /Library/Ruby/Gems/2.0.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 217ms (Views: 100.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:21:54 -0500
+
+
+Started POST "/users" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iAmxn3KYuaZIrIzKR4VJkQNlY8mTJIOMdcrg4eCa8Dg=", "user"=>{"email"=>"chundo@pecademy.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'chundo@pecademy.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered /Library/Ruby/Gems/2.0.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 179ms (Views: 102.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:15 -0500
+
+
+Started POST "/users" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iAmxn3KYuaZIrIzKR4VJkQNlY8mTJIOMdcrg4eCa8Dg=", "user"=>{"email"=>"chundo@pecademy.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'chundo@pecademy.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-11-09 23:22:26.754838"], ["email", "chundo@pecademy.com"], ["encrypted_password", "$2a$10$s6ywYPFqXKkW6JbJqxoEEeNhtsqJgtiTy88NCMDdPpNABXbkOzsEe"], ["updated_at", "2014-11-09 23:22:26.754838"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `current_sign_in_ip`
+Binary data inserted for `string` type on column `last_sign_in_ip`
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["current_sign_in_at", "2014-11-09 23:22:26.758282"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_at", "2014-11-09 23:22:26.758282"], ["last_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2014-11-09 23:22:26.759268"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/categoria
+Completed 302 Found in 83ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/categoria" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+Processing by CategoriaController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mCategorium Load (0.2ms)[0m  [1mSELECT "categoria".* FROM "categoria"[0m
+  Rendered categoria/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 118ms (Views: 99.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:26 -0500
+
+
+Started GET "/categoria/new" for 127.0.0.1 at 2014-11-09 18:22:29 -0500
+Processing by CategoriaController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered categoria/_form.html.erb (5.2ms)
+  Rendered categoria/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 131ms (Views: 128.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/categoria" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+Processing by CategoriaController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iAmxn3KYuaZIrIzKR4VJkQNlY8mTJIOMdcrg4eCa8Dg=", "categorium"=>{"nombre"=>"test"}, "commit"=>"Create Categorium"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "categoria" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-11-09 23:22:32.573713"], ["nombre", "test"], ["updated_at", "2014-11-09 23:22:32.573713"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/categoria/1
+Completed 302 Found in 8ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/categoria/1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+Processing by CategoriaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategorium Load (0.2ms)[0m  [1mSELECT  "categoria".* FROM "categoria"  WHERE "categoria"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered categoria/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 136ms (Views: 133.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:32 -0500
+
+
+Started GET "/categoria" for 127.0.0.1 at 2014-11-09 18:22:34 -0500
+Processing by CategoriaController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mCategorium Load (0.2ms)[0m  SELECT "categoria".* FROM "categoria"
+  Rendered categoria/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 136ms (Views: 134.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/categoria/new" for 127.0.0.1 at 2014-11-09 18:22:36 -0500
+Processing by CategoriaController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered categoria/_form.html.erb (1.8ms)
+  Rendered categoria/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 132ms (Views: 129.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/categoria" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+Processing by CategoriaController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iAmxn3KYuaZIrIzKR4VJkQNlY8mTJIOMdcrg4eCa8Dg=", "categorium"=>{"nombre"=>"pentes"}, "commit"=>"Create Categorium"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categoria" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-11-09 23:22:40.708374"], ["nombre", "pentes"], ["updated_at", "2014-11-09 23:22:40.708374"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/categoria/2
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/categoria/2" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+Processing by CategoriaController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCategorium Load (0.1ms)[0m  SELECT  "categoria".* FROM "categoria"  WHERE "categoria"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered categoria/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 65ms (Views: 63.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:22:40 -0500
+
+
+Started GET "/categoria" for 127.0.0.1 at 2014-11-09 18:22:42 -0500
+Processing by CategoriaController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mCategorium Load (0.2ms)[0m  [1mSELECT "categoria".* FROM "categoria"[0m
+  Rendered categoria/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 75ms (Views: 72.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pos" for 127.0.0.1 at 2014-11-09 18:22:47 -0500
+
+ActionController::RoutingError (No route matches [GET] "/pos"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:22:50 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `usuario' for #<Post:0x007f84510c3960>):
+    177:                         <div class="blog-content">
+    178:                             <a href="blog-item.html"><h3><td><%= post.titulo %></td></h3></a>
+    179:                             <div class="entry-meta">
+    180:                                 <span><i class="icon-user"></i> <a href="#"><td><%= post.usuario %></td></a></span>
+    181:                                 <span><i class="icon-folder-close"></i> <a href="#"><td><%= post.categoria %></td></a></span>
+    182:                                 <span><i class="icon-calendar"></i> Sept 16th, 2012</span>
+    183:                                 <span><i class="icon-comment"></i> <a href="blog-item.html#comments">3 Comments</a></span>
+  app/views/posts/index.html.erb:180:in `block in _app_views_posts_index_html_erb__823261142875095372_70103093189140'
+  app/views/posts/index.html.erb:174:in `_app_views_posts_index_html_erb__823261142875095372_70103093189140'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:23:22 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 0]]
+  Rendered posts/index.html.erb within layouts/application (58.3ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (undefined method `categoria' for #<Post:0x007f844dd09bd8>):
+    178:                             <a href="blog-item.html"><h3><td><%= post.titulo %></td></h3></a>
+    179:                             <div class="entry-meta">
+    180:                                 <span><i class="icon-user"></i> <a href="#"><td><%= post.user %></td></a></span>
+    181:                                 <span><i class="icon-folder-close"></i> <a href="#"><td><%= post.categoria %></td></a></span>
+    182:                                 <span><i class="icon-calendar"></i> Sept 16th, 2012</span>
+    183:                                 <span><i class="icon-comment"></i> <a href="blog-item.html#comments">3 Comments</a></span>
+    184:                             </div>
+  app/views/posts/index.html.erb:181:in `block in _app_views_posts_index_html_erb__823261142875095372_70103108409180'
+  app/views/posts/index.html.erb:174:in `_app_views_posts_index_html_erb__823261142875095372_70103108409180'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.8ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:24:09 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 0]]
+  Rendered posts/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `categoria' for #<Post:0x007f844e9b1fc0>):
+    178:                             <a href="blog-item.html"><h3><td><%= post.titulo %></td></h3></a>
+    179:                             <div class="entry-meta">
+    180:                                 <span><i class="icon-user"></i> <a href="#"><td><%= post.user %></td></a></span>
+    181:                                 <span><i class="icon-folder-close"></i> <a href="#"><td><%= post.categoria %></td></a></span>
+    182:                                 <span><i class="icon-calendar"></i> Sept 16th, 2012</span>
+    183:                                 <span><i class="icon-comment"></i> <a href="blog-item.html#comments">3 Comments</a></span>
+    184:                             </div>
+  app/views/posts/index.html.erb:181:in `block in _app_views_posts_index_html_erb__823261142875095372_70103115504080'
+  app/views/posts/index.html.erb:174:in `_app_views_posts_index_html_erb__823261142875095372_70103115504080'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:24:28 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 0]]
+  Rendered posts/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `categoriun' for #<Post:0x007f844fac60b8>):
+    178:                             <a href="blog-item.html"><h3><td><%= post.titulo %></td></h3></a>
+    179:                             <div class="entry-meta">
+    180:                                 <span><i class="icon-user"></i> <a href="#"><td><%= post.user %></td></a></span>
+    181:                                 <span><i class="icon-folder-close"></i> <a href="#"><td><%= post.categoriun %></td></a></span>
+    182:                                 <span><i class="icon-calendar"></i> Sept 16th, 2012</span>
+    183:                                 <span><i class="icon-comment"></i> <a href="blog-item.html#comments">3 Comments</a></span>
+    184:                             </div>
+  app/views/posts/index.html.erb:181:in `block in _app_views_posts_index_html_erb__823261142875095372_70103124473040'
+  app/views/posts/index.html.erb:174:in `_app_views_posts_index_html_erb__823261142875095372_70103124473040'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:24:39 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 0]]
+  Rendered posts/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `categorias' for #<Post:0x007f844fd068a0>):
+    178:                             <a href="blog-item.html"><h3><td><%= post.titulo %></td></h3></a>
+    179:                             <div class="entry-meta">
+    180:                                 <span><i class="icon-user"></i> <a href="#"><td><%= post.user %></td></a></span>
+    181:                                 <span><i class="icon-folder-close"></i> <a href="#"><td><%= post.categorias %></td></a></span>
+    182:                                 <span><i class="icon-calendar"></i> Sept 16th, 2012</span>
+    183:                                 <span><i class="icon-comment"></i> <a href="blog-item.html#comments">3 Comments</a></span>
+    184:                             </div>
+  app/views/posts/index.html.erb:181:in `block in _app_views_posts_index_html_erb__823261142875095372_70103125651220'
+  app/views/posts/index.html.erb:174:in `_app_views_posts_index_html_erb__823261142875095372_70103125651220'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:25:37 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 0]]
+  Rendered posts/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `categoria' for #<Post:0x007f844de61b98>):
+    178:                             <a href="blog-item.html"><h3><td><%= post.titulo %></td></h3></a>
+    179:                             <div class="entry-meta">
+    180:                                 <span><i class="icon-user"></i> <a href="#"><td><%= post.user %></td></a></span>
+    181:                                 <span><i class="icon-folder-close"></i> <a href="#"><td><%= post.categoria %></td></a></span>
+    182:                                 <span><i class="icon-calendar"></i> Sept 16th, 2012</span>
+    183:                                 <span><i class="icon-comment"></i> <a href="blog-item.html#comments">3 Comments</a></span>
+    184:                             </div>
+  app/views/posts/index.html.erb:181:in `block in _app_views_posts_index_html_erb__823261142875095372_70103109419660'
+  app/views/posts/index.html.erb:174:in `_app_views_posts_index_html_erb__823261142875095372_70103109419660'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:25:40 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 0]]
+  Rendered posts/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `categoria' for #<Post:0x007f844e9820b8>):
+    178:                             <a href="blog-item.html"><h3><td><%= post.titulo %></td></h3></a>
+    179:                             <div class="entry-meta">
+    180:                                 <span><i class="icon-user"></i> <a href="#"><td><%= post.user %></td></a></span>
+    181:                                 <span><i class="icon-folder-close"></i> <a href="#"><td><%= post.categoria %></td></a></span>
+    182:                                 <span><i class="icon-calendar"></i> Sept 16th, 2012</span>
+    183:                                 <span><i class="icon-comment"></i> <a href="blog-item.html#comments">3 Comments</a></span>
+    184:                             </div>
+  app/views/posts/index.html.erb:181:in `block in _app_views_posts_index_html_erb__823261142875095372_70103109419660'
+  app/views/posts/index.html.erb:174:in `_app_views_posts_index_html_erb__823261142875095372_70103109419660'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-11-09 18:27:33 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `categoria' for #<Post:0x007f844faa4b98>):
+    4:   <tbody>
+    5:     <% @posts.each do |post| %>
+    6:       <tr>
+    7:         <td><%= post.categoria %></td>
+    8:         <td><%= post.user %></td>
+    9:         <td><%= post.titulo %></td>
+   10:         <td><%= post.contenido %></td>
+  app/views/posts/index.html.erb:7:in `block in _app_views_posts_index_html_erb__823261142875095372_70103124442300'
+  app/views/posts/index.html.erb:5:in `_app_views_posts_index_html_erb__823261142875095372_70103124442300'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/categoria" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+Processing by CategoriaController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mCategorium Load (0.1ms)[0m  [1mSELECT "categoria".* FROM "categoria"[0m
+  Rendered categoria/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 107ms (Views: 103.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/categoria.css?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/categoria.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:43 -0500
