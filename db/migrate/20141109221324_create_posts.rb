@@ -1,7 +1,7 @@
 class CreatePosts < ActiveRecord::Migration
   def change
     create_table :posts do |t|
-      t.references :categoria, index: true
+      t.references :categoria_post, index: true
       t.references :comentario, index: true
       t.references :user, index: true
       t.string :titulo

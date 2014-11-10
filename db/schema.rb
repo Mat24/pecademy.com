@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141109223724) do
+ActiveRecord::Schema.define(version: 20141110004742) do
 
-  create_table "categoria", force: true do |t|
+  create_table "categoria_posts", force: true do |t|
     t.string   "nombre"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 20141109223724) do
   add_index "comentarios", ["user_id"], name: "index_comentarios_on_user_id"
 
   create_table "posts", force: true do |t|
-    t.integer  "categoria_id"
+    t.integer  "categoria_post_id"
     t.integer  "comentario_id"
     t.integer  "user_id"
     t.string   "titulo"
@@ -43,7 +43,7 @@ ActiveRecord::Schema.define(version: 20141109223724) do
     t.datetime "updated_at"
   end
 
-  add_index "posts", ["categoria_id"], name: "index_posts_on_categoria_id"
+  add_index "posts", ["categoria_post_id"], name: "index_posts_on_categoria_post_id"
   add_index "posts", ["comentario_id"], name: "index_posts_on_comentario_id"
   add_index "posts", ["user_id"], name: "index_posts_on_user_id"
 

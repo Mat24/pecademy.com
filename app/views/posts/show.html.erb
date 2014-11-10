@@ -2,12 +2,12 @@
 
 <p>
   <strong>Categoria:</strong>
-  <%= @post.categoria %>
+  <%= @post.categoria_post.nombre %>
 </p>
 
 <p>
   <strong>User:</strong>
-  <%= @post.user %>
+  <%= @post.user.email %>
 </p>
 
 <p>
@@ -29,6 +29,11 @@
   <strong>Imagen:</strong>
   <%= @post.imagen %>
 </p>
-
+<br>
+<h1>Comentarios</h1>
+<%= @post.comentarios.each do |comentario| %>
+    <label>Comentario #:</label><%= comentario.id %><p>
+    <label>Cuerpo:</label><p><%= comentario.cuerpo %>
+<% end %>
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>

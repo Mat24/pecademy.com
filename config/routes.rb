@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :categoria_posts
+
   resources :comentarios
 
   resources :tags

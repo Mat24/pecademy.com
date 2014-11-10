@@ -4,8 +4,8 @@
   <tbody>
     <% @posts.each do |post| %>
       <tr>
-        <td><%= post.categoria %></td>
-        <td><%= post.user %></td>
+        <td><%= post.categoria_post.nombre %></td>
+        <td><%= post.user.email %></td>
         <td><%= post.titulo %></td>
         <td><%= post.contenido %></td>
         <td><%= post.fecha %></td>
