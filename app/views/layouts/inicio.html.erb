@@ -1,1 +1,122 @@
-ola mundo
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pecademy | Academia de Hacking Etico</title>
+
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- CSS 
+        ================================================== -->
+    <!-- Bootstrap 3-->
+    <link href="/home/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Template Styles -->
+    <link href="/home/css/style.css" rel="stylesheet" media="screen">
+
+
+	<!-- inicio integrado css -->
+    <link rel="stylesheet" href="/home/stilos.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+     <!-- fin integrado css video --> 
+
+
+
+      <!-- integrado infiltrado css index suscripcion y contactanos -->
+		
+
+
+		<link rel="stylesheet" href="/index/css/prettyPhoto.css">
+        <link rel="stylesheet" href="/index/css/jquery.bxslider.css">
+        <link rel="stylesheet" href="/index/css/jquery.countdown.css">
+        <link rel="stylesheet" href="/index/css/foundation.css"> <!--pro-->
+        <link rel="stylesheet" href="/index/css/normalize.css"> <!--pro-->
+        <link rel="stylesheet" href="/index/css/main.css">
+        <link rel="stylesheet" href="/index/css/styles.css">
+
+        <!-- Header Scripts -->
+        <script src="/aindex/js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- in integracion -->
+
+      </head>
+  	<body>
+
+
+  	 <!-- NAVBAR
+	      ================================================== -->
+
+
+	<video id="video1" loop autoplay preload poster="images/poster.png">
+		<source src="/home/videos/coding.mp4" type="video/mp4" />
+		<source src="/home/videos/coding.webm" type="video/webm" />
+		<source src="/home/videos/coding.ogv" type="video/ogg" />
+	</video>
+
+
+
+
+
+	  <nav class="navbar navbar-default" role="navigation">
+	  	  <div class="container">
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+			    
+			    <!--Replace text with your app name or logo image-->
+			    <a class="navbar-brand" href="#">PECADEMY</a>
+			    
+			  </div>
+			  <div class="collapse navbar-collapse navbar-ex1-collapse">
+			    <ul class="nav navbar-nav">
+			      <li><a onclick="$('header').animatescroll({padding:71});">Inicio</a></li>
+			      <li><a onclick="$('.detail').animatescroll({padding:71});">Como </a></li>
+			      <li><a onclick="$('.features').animatescroll({padding:71});">Que Hacemos</a></li>
+			      <li><a onclick="$('.contacto').animatescroll({padding:71});">Contactanos</a></li>
+			      <li><a onclick="$('.social').animatescroll({padding:71});">Siguenos</a></li>
+			      
+
+			      
+			      <li><%= link_to "Blog", blog_path %></li>		      
+			      <li><%= link_to "Registrate", registrar_path %></li>
+			      <li><%= link_to "Inicia sesión", login_path %></li>
+
+			      <!--<li><form class="navbar-form navbar-right" role="form">
+		            <div class="form-group">
+		              <input type="text" placeholder="Email" class="form-control">
+		            </div>
+		            <div class="form-group">
+		              <input type="password" placeholder="Password" class="form-control">
+		            </div>
+		            <button type="submit" class="btn btn-success">Sign in</button>
+		          </form></li>-->
+			    </ul>
+			  </div>
+		  </div>
+	  </nav>
+	  
+	  
+	 
+  		<%= yield %>
+
+	 
+		 <!-- JAVASCRIPT
+		     ================================================== -->
+	    <script src="/home/js/jquery.js"></script>
+	    <script src="/home/js/bootstrap.min.js"></script>
+	    <script src="/home/js/animatescroll.js"></script>
+	    <script src="/home/js/scripts.js"></script>
+	    <script src="/home/js/retina-1.1.0.min.js"></script>
+	    <script src="/aindex/js/plugins.js"></script>
+	    <script src="/aindex/js/main.js"></script>
+  	</body>
+</html>

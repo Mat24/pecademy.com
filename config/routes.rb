@@ -14,6 +14,13 @@ Rails.application.routes.draw do
 
   root 'inicio#index'
 
+  get 'blog/' => 'posts#index'
+  
+  get 'login' => 'inicio#login'
+  
+  get 'registrar' => 'inicio#registrar'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
